@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap'); 
 
-
+*{
+  padding: 0 ;
+  margin: 0 ;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Fresca', sans-serif;
 }
@@ -53,6 +57,38 @@ body {
   border-color: transparent;
   cursor: pointer;
 }
+
+.AddActivity {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.AddActivity textarea {
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+
+.AddActivity button {
+  padding: 20px;
+  background-color: green;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Fresca', sans-serif;
+  color: white;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.AddActivity button,
+.AddActivity textarea,
+.AddActivity input,
+.AddActivity h2 {
+  display: block;
+}
+
 
 @keyframes App-logo-spin {
   from {
